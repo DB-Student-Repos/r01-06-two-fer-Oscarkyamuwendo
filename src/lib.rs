@@ -1,3 +1,3 @@
 pub fn twofer(name: &str) -> String {
-    unimplemented!("how many for {name}")
+    format!("One for {}, one for me.", name)
 }
